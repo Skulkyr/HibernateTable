@@ -1,0 +1,12 @@
+spring.application.name: HibernateTable
+
+spring:
+    datasource:
+        url: jdbc:postgresql://localhost:5432/demo?currentSchema=bookings
+        username: postgres
+        password: postgres
+        driver-class-name: org.postgresql.Driver
+
+    jpa:
+        hibernate:
+            ddl-auto: validate
